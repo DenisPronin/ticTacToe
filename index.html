@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Krestiki-noliki</title>
+    <meta content="text/html" charset="utf-8">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div>
+    <button type="button" class="btn info" data-toggle="modal" data-target="#modalSettings" title="Settings">
+        <span class="glyphicon glyphicon-cog"></span>
+    </button>
+    <div class="modal fade" id="modalSettings" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Settings</h4>
+                </div>
+                <div class="modal-body">
+                    <label>Select width of board:
+                        <input type="text" id="width_board"/>
+                    </label>
+                    <label>Select height of board:
+                        <input type="text" id="height_board"/>
+                    </label>
+                    <label>Select length of winner line:
+                        <input type="text" id="win_length"/>
+                    </label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveSettings">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="game_container" class="container">
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+<script src="bower_components/backbone/backbone.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/handlebars/handlebars.min.js"></script>
+
+<script src="js/models.js"></script>
+<script src="js/views.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#game_container{
+    height: 500px;
+}
+
+#gameBoard{
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.fieldCell{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.cross{
+    background: url("../img/cross.png") no-repeat;
+}
+
+.cross.complete{
+    background: url("../img/cross_complete.png") no-repeat;
+}
+
+.zero{
+    background: url("../img/nolik.png") no-repeat;
+}
+
+.zero.complete{
+    background: url("../img/nolik_complete.png") no-repeat;
+}

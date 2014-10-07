@@ -1,0 +1,10 @@
+{
+    "name": "Backbone Test",
+    "version": "0.0.1",
+    "dependencies": {
+        "backbone": "latest",
+        "jquery": "latest",
+        "bootstrap": "latest",
+        "handlebars": "latest"
+    }
+}
