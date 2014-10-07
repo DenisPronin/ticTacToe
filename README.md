@@ -1,6 +1,9 @@
-BackboneTest
+TicTacToe
 ============
-learninig backboneJs
+learninig backboneJs, writing game
 
-For setup:
+#For setup:
 bower install
+
+#Demo:
+[http://denispronin.github.io/ticTacToe](http://denispronin.github.io/ticTacToe)
